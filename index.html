@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,900" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title>Bootstrap Project</title>
+</head>
+<body>
+    <!-- Navbar -->
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" width="120" height="30" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+    
+    
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            HOME
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ELEMENTS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PORTOFOLIO
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                BLOG
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+          
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                CART
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+            
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SEARCH
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    <!-- Main -->
+    <div class="main-container">
+        <div class="main-container__content">
+            <div class="main-container__content-overlay">
+                <div class="main-container__content-core">
+                    <h1 class="main-container__header">created for creatives</h1>
+                    <p>MULTIPAGE & ONEPAGE HTML5 TEMPLATES</p>
+                    <button class="custom-btn-dark btn-dark">learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome -->
+    <div class="welcome general-layout container">
+        <h1 class="general-layout__header">WELCOME TO DEFINITY</h1>
+        <p class="general-layout__paragraph">
+            CREATIVE MULTIPURPOSE ONE/MULTI PAGE TEMPLATE
+        </p>
+        <p class="general-layout__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        </p>
+        <img class="welcome__img" src="./images/browsers-features.png">
+    </div>
+
+    <!-- What We Do -->
+    <div class="general-layout container">
+        <h1 class="general-layout__header">WHAT WE DO</h1>
+        <p class="general-layout__paragraph">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+        </p>
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="card card1">
+                    <img class="card-img-top" src="./images/triangle.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">PIXEL PERFECT</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv.</p>
+                    </div>
+                    <div class="card-body link">
+                        <a href="#" class="card-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="card card1">
+                    <img class="card-img-top" src="./images/cards.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">MULTIPLE ICON SETS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv.</p>
+                    </div>
+                    <div class="card-body link">
+                        <a href="#" class="card-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="card card1">
+                    <img class="card-img-top" src="./images/star.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">LOTS OF FEATURES</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv.</p>
+                    </div>
+                    <div class="card-body link">
+                        <a href="#" class="card-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="what-we-do__charts">
+        <div class="what-we-do__charts__overlay">
+            <div class="row container-fluid">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="chart">
+                            <div class="chart__icon">
+                                    <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="chart__desc">
+                                <p>WEB DEVELOPMENT</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="chart">
+                            <div class="chart__icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <div class="chart__desc">
+                                <p>
+                                    WEB DESIGN
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="chart">
+                            <div class="chart__icon">
+                                    <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="chart__desc">
+                                <p>
+                                    PHOTOGRAPHY
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="chart">
+                            <div class="chart__icon">
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="chart__desc">
+                                <p>
+                                    MARKETING
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </div>
+
+
+    <!-- Mobile Friendly -->
+    <div class="mobile-friendly general-layout container">
+            <h1 class="general-layout__header">MOBILE FRIENDLY</h1>
+            <p class="general-layout__paragraph">
+                CREATED TO WORK ON ALL MOBILE DEVICES
+            </p>
+            <div class="row">
+                <div class="mobile-friendly__row-card col-lg-4">
+                    <div class="card card2"  style="flex-direction:row-reverse;">
+                        <div class="card-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">EASILY ADJUSTI</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius.</p>
+                        </div>
+                    </div>
+                    <div class="card card2"  style="flex-direction:row-reverse;">
+                        <div class="card-icon">
+                                <i class="far fa-thumbs-up"></i>
+                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">100% RESPONSIVE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius.</p>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-4">
+                    <img class="img-fluid" src="images/tablet.png">
+                </div>
+                
+                <div  class="mobile-friendly__row-card col-lg-4">
+                    <div class="card card2">
+                        <div class="card-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">MODULAR DESIGN</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius.</p>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="card-icon">
+                                <i class="far fa-star"></i>
+                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">LOTS OF FEATURES</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="mobile-friendly__records">
+            <div class="mobile-friendly__records__overlay">
+                <div class="row container-fluid">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="mobile-friendly__records-item">
+                                <div class="mobile-friendly__records-item-title">
+                                    <span>467</span>
+                                </div>
+                                <div class="mobile-friendly__records-item-desc">
+                                    <p>
+                                        PROJECTS COMPLETED
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="mobile-friendly__records-item">
+                                <div class="mobile-friendly__records-item-title">
+                                        <span>2,835</span>
+                                </div>
+                                <div class="mobile-friendly__records-item-desc">
+                                    <p>
+                                        EMAILS SEND
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="mobile-friendly__records-item">
+                                <div class="mobile-friendly__records-item-title">
+                                        <span>46,930</span>
+                                </div>
+                                <div class="mobile-friendly__records-item-desc">
+                                    <p>
+                                        PIXELS CREATED
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="mobile-friendly__records-item">
+                                <div class="mobile-friendly__records-item-title">
+                                        <span>102,890</span>
+                                </div>
+                                <div class="mobile-friendly__records-item-desc">
+                                    <p>
+                                        HAPPY CLIENTS
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    
+    <!-- Our Work -->
+    <div class="our-work general-layout container">
+        <h1 class="general-layout__header">OUR WORK PROCESS</h1>
+        <p class="general-layout__paragraph">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+        </p>
+        <div class="our-work__content row">
+            <div class="our-work__content__item col-12 col-md-4">
+                <h3 class="our-work__content__item-header">DESIGN</h3>
+                <p>
+                    Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                </p>
+            </div>
+            <div class="our-work__content__item col-12 col-md-4">
+                <h3  class="our-work__content__item-header">DEVELOP</h3>
+                <p>
+                    Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                </p>
+            </div>
+            <div class="our-work__content__item col-12 col-md-4">
+                <h3  class="our-work__content__item-header">DEPLOY</h3>
+                <p>
+                    Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+        <div class="col-12 col-lg-6">
+            <div class="card card3 text-white">
+                <img class="card-img" src="images/desk.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                    <div class="card-contents">
+                        <h5 class="card-title">BRANDING IDENTITY</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore.
+                        </p>
+                        <button class="card-btn">VIEW PROJECT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="card card3 text-white">
+                <img class="card-img" src="images/bridge.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                    <div class="card-contents">
+                        <h5 class="card-title">PHOTOGRAPHY</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore.
+                        </p>
+                        <button class="card-btn">VIEW PROJECT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Some Of Our Projects -->
+    <div class="our-projects general-layout container">
+            <h1 class="general-layout__header">SOME OF OUR PROJECTS</h1>
+            <p class="general-layout__paragraph">
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+            </p>
+            <div class="our-projects__pannel">
+                <div class="our-projects__pannel-items btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-light">ALL</button>
+                    <button type="button" class="btn btn-light">WEB DESIGN</button>
+                    <button type="button" class="btn btn-light">PRINT</button>
+                    <button type="button" class="btn btn-light">PHOTOGRAPHY</button>
+                </div>
+            </div>
+    </div>
+    <div class="our-projects__portofolio row no-gutters">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj1.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj2.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj3.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj4.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj5.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card3 text-white">
+                    <img class="card-img" src="images/proj6.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="card-img-overlay__expand"><i class="fas fa-expand"></i></div>
+                        <div class="card-contents">
+                            <h5 class="card-title">PROJECT NAME</h5>
+                            <p class="card-text">
+                                SUB HEADING FOR THE PROJECT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="our-projects__get-in-touch general-layout">
+            <div class="our-projects__get-in-touch-overlay">
+                <h1 class="our-projects__get-in-touch-header">SEE WHAT WE CAN DO FOR YOU</h1>
+                <button class="custom-btn-light">GET IN TOUCH</button>
+            </div>
+    </div>
+
+<!-- Testimonials -->
+    <div class="testimonial">
+        <div class="general-layout container">
+                <h1 class="general-layout__header">WHAT PEOPLE SAY ABOUT US</h1>
+                <p class="general-layout__paragraph">
+                        READ SOME OF THE TESTIMONIALS FROM OUR AMAZING CLIENTS
+                </p>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <ul class="profile">
+                            <li class="profile__item profile__img">
+                                <img class="profile__img-item" src="images/avatar-1.png">
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__data">
+                                <p class="profile__data-name">BY JULIAN SCHMITZ</p>
+                                <p class="profile__data-work">GOOGLE</p>
+                            </li>
+                            <li class="profile__item profile__quote">
+                                <i class="fas fa-quote-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="profile">
+                            <li class="profile__item profile__img">
+                                <img class="profile__img-item" src="images/avatar-2.png">
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__data">
+                                <p class="profile__data-name">BY JULIAN SCHMITZ</p>
+                                <p class="profile__data-work">GOOGLE</p>
+                            </li>
+                            <li class="profile__item profile__quote">
+                                <i class="fas fa-quote-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="profile">
+                            <li class="profile__item profile__img">
+                                <img class="profile__img-item" src="images/avatar-3.png">
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                            </li>
+                            <li class="profile__item profile__divider"></li>
+                            <li class="profile__item profile__data">
+                                <p class="profile__data-name">BY JULIAN SCHMITZ</p>
+                                <p class="profile__data-work">GOOGLE</p>
+                            </li>
+                            <li class="profile__item profile__quote">
+                                <i class="fas fa-quote-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+
+
+    <!-- Latest From Our Blog -->
+    <div class="latest-from-blog">
+            <div class="latest general-layout container">
+                    <h1 class="general-layout__header">LATEST FROM OUR BLOG</h1>
+                    <p class="general-layout__paragraph">
+                            CHECK OUT OUR BLOG TO SEE WHAT WERE UP TO
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/latest-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="card__details">
+                                        <div class="card__calender"> 
+                                            <span class="card__calender-icon"><i class="far fa-calendar"></i></span>
+                                            <span class="card__calender-date">AUGUST 01,2015</span>
+                                        </div>
+                                        <div class="card__comments">
+                                            <span class="card__comments-icon"><i class="far fa-comments"></i></span>
+                                            <span class="card__comments-count">12</span>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">BLOG POST TITLE</h5>
+                                    <p class="card-text">
+                                            Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad..
+                                    </p>
+                                    <a href="#" class="custom-btn-dark btn-dark btn">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/latest-2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="card__details">
+                                        <div class="card__calender"> 
+                                            <span class="card__calender-icon"><i class="far fa-calendar"></i></span>
+                                            <span class="card__calender-date">AUGUST 01,2015</span>
+                                        </div>
+                                        <div class="card__comments">
+                                            <span class="card__comments-icon"><i class="far fa-comments"></i></span>
+                                            <span class="card__comments-count">12</span>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">BLOG POST TITLE</h5>
+                                    <p class="card-text">
+                                            Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad..
+                                    </p>
+                                    <a href="#" class="custom-btn-dark btn-dark btn">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/latest-3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="card__details">
+                                        <div class="card__calender"> 
+                                            <span class="card__calender-icon"><i class="far fa-calendar"></i></span>
+                                            <span class="card__calender-date">AUGUST 01,2015</span>
+                                        </div>
+                                        <div class="card__comments">
+                                            <span class="card__comments-icon"><i class="far fa-comments"></i></span>
+                                            <span class="card__comments-count">12</span>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">BLOG POST TITLE</h5>
+                                    <p class="card-text">
+                                            Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad..
+                                    </p>
+                                    <a href="#" class="custom-btn-dark btn-dark btn">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+
+
+    <!-- Join Our Newsletter -->
+    <div class="our-newsletter general-layout" >
+            <div class="our-newsletter-overlay" style="padding: 50px 10px;">
+                <h1 class="our-newsletter-header">JOIN OUR NEWSLETTER</h1>
+                <input class="mega-input-text" type="text" placeholder="Your Email Address">
+                <button class="custom-btn-light">JOIN US</button>
+            </div>
+    </div>
+
+    <!-- Top Rated Products -->
+    <div class="top-rated-products">
+        <div class="top-products general-layout container">
+            <h1 class="general-layout__header">TOP RATED PRODUCTS</h1>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="products-viewer">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="products-viewer__lock"><i class="fas fa-lock"></i></div>
+                        <span class="sale">SALE</span>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/model-4.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/model-2.jpg" alt="Second slide">
+                          </div>
+                        </div>
+
+                    </div>
+                    <div class="products-viewer-body">
+                      <h5 class="products-viewer-title">CASUAL GRAY BLAZER</h5>
+                      <p class="products-viewer-text">
+                          <span class="before">$287.99</span><span class="after">$187.99</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="products-viewer">
+                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                        <div class="products-viewer__lock"><i class="fas fa-lock"></i></div>
+                        <span class="sale">SALE</span>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/model-2.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="images/model-4.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-viewer-body">
+                        <h5 class="products-viewer-title">CASUAL GRAY BLAZER</h5>
+                        <p class="products-viewer-text">
+                            <span class="before">$287.99</span><span class="after">$187.99</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="products-viewer">
+                    <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                        <div class="products-viewer__lock"><i class="fas fa-lock"></i></div>
+                        <span class="sale">SALE</span>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/model-5.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="images/model-3.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-viewer-body">
+                        <h5 class="products-viewer-title">CASUAL GRAY BLAZER</h5>
+                        <p class="products-viewer-text">
+                            <span class="before">$287.99</span><span class="after">$187.99</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="products-viewer">
+                    <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                        <div class="products-viewer__lock"><i class="fas fa-lock"></i></div>
+                        <span class="sale">SALE</span>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/model-3.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="images/model-5.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-viewer-body">
+                        <h5 class="products-viewer-title">CASUAL GRAY BLAZER</h5>
+                        <p class="products-viewer-text">
+                            <span class="before">$287.99</span><span class="after">$187.99</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Us -->
+    <div class="contact-us">
+        <div class="contact-us-core general-layout container">
+            <h1 class="general-layout__header">TOP RATED PRODUCTS</h1>
+            <p class="general-layout__paragraph">
+                WE LOVE TO HEAR FROM YOU        
+            </p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-field">
+                                <input type="text" placeholder="Enter Your Name" class="form-input-txt">
+                                <label class="form-label">Name</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-field">
+                                <input type="text" placeholder="Enter Your Email" class="form-input-txt">
+                                <label class="form-label">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-field">
+                        <textarea placeholder="Your Message" class="form-input-txt" style="min-height:130px; width: 370px"></textarea>
+                        <label class="form-label">Message</label>
+                    </div>
+                </div>
+            </div>
+            <button class="custom-btn-dark">SEND MESSAGE</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="my-footer">
+        <div class="row no-gutters">
+            <div class="my-footer__text col-12 col-md-6">
+                <p>© 2015 DEFINITY. MADE BY OCTARINETHEMES</p>
+            </div>
+            <div class="my-footer__link col-12 col-md-6">
+                <p>TO THE TOP</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+ 
+</body>
+</html>
